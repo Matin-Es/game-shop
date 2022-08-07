@@ -153,11 +153,11 @@ const Home = props => {
                                 <Dice className={styles.ctaSVG} />
                                 Play Dice
                               </button>
-                              <a href="https://github.com/gianlucajahn/react-ecommerce-store" target="_blank"><button className={styles.cta} aria-label="View Repository">
+                              <a href="https://github.com/Matin-Es" target="_blank"><button className={styles.cta} aria-label="View Repository">
                                 <GitHubLogo className={styles.ctaSVG} />
                                 GitHub
                               </button></a>
-                              <a href="https://www.linkedin.com/in/gianlucajahn/" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="Open LinkedIn">
+                              <a href="https://www.linkedin.com/in/matinesmaili/" target="_blank"><button className={`${styles.cta} ${styles.lastChild}`} aria-label="Open LinkedIn">
                                 <LinkedIn className={`${styles.ctaSVG} ${styles.linkedin}`} />
                                 <span>LinkedIn</span>
                               </button></a>
