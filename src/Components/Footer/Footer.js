@@ -41,7 +41,7 @@ const Footer = props => {
     
             <div className={styles.footerInfo}>
               <div className={styles.infoLeft}>
-                <p>This page was built by Gianluca Jahn with React.</p>
+                <p>This page was built by Matin Esmaili Jahn with React.</p>
                 <p>Portions of this page are inspired by <span>RAWG, RAWG.io</span>. This page was built solely for educational purposes.</p>
               </div>
               <div className={styles.infoRight}>
