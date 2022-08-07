@@ -110,6 +110,7 @@ const NavBar = props => {
         </div>
 
         <div className={styles.navbar_right}>
+        <a target="_blank" href='https://github.com/Matin-Es'>
             <div 
               className={styles.githubdiv} 
               id="2"
@@ -118,8 +119,9 @@ const NavBar = props => {
             >
                 <GitHub className={styles.gh} />
                 <h3>Matin</h3>
+              
             </div>
-
+            </a>
             <div 
               className={styles.cartdiv} 
               id="3"
