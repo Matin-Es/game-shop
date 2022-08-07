@@ -1,0 +1,47 @@
+.gridContainer {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 320px;
+    grid-auto-rows: 320px;
+    grid-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.noGrid {
+    margin-top: 25px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 500px;
+    grid-auto-columns: 500px;
+    grid-template-rows: 400px;
+    grid-auto-rows: 400px;
+    grid-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.reviews {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews h2 {
+    font-size: 3em;
+    font-family: "GT Bold";
+    color: white;
+}
+
+.reviews h3 {
+    color: #ccc;
+}
+
+@media (max-width: 1700px) {
+    .gridContainer {
+        grid-template-rows: 290px;
+        grid-auto-rows: 290px;
+    }
+}
+
